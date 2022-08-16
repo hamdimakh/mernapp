@@ -1,0 +1,33 @@
+{
+  "name": "mern-f3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "front": "cd client && npm start",
+    "back": "nodemon server",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongoose",
+    "mongodb"
+  ],
+  "author": "oumaya",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.1.3",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.6",
+    "react-bootstrap": "^2.4.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
